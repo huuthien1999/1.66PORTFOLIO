@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+  <!-- notification for small viewports and landscape oriented smartphones -->
+  <div class="device-notification">
+    <a class="device-notification--logo" href="#0">
+      <img src="assets/img/logo.png" alt="Global">
+      <p>Global</p>
+    </a>
+    <p class="device-notification--message">Global has so much to offer that we must request you orient your device to
+      portrait or find a larger screen. You won't be disappointed.</p>
+  </div>
+
+  <div class="perspective effect-rotate-left">
+    <div class="container">
+      <div class="outer-nav--return"></div>
+      <div id="viewport" class="l-viewport">
+        <div class="l-wrapper">
+          <header class="header">
+            <a class="header--logo" href="#0">
+              <img src="assets/img/166_WEB_LOGO.png" alt="1.66">
+            </a>
+            <!-- <button class="header--cta cta">Hire Us</button> -->
+            <div class="header--nav-toggle">
+              <span></span>
+            </div>
+          </header>
+          <nav class="l-side-nav">
+            <ul class="side-nav">
+              <li class="is-active"><span>HOME</span></li>
+              <li><span>TST</span></li>
+              <li><span>OWN</span></li>
+              <li><span>LOOKISM</span></li>
+              <!-- <li><span>Hire us</span></li> -->
+            </ul>
+          </nav>
+          <ul class="l-main-content main-content">
+            <li class="l-section section section--is-active">
+              <div class="intro">
+                <div class="intro--banner">
+                  <h1>WE ARE<br>1.66<br>COLLECTIVE</h1>
+                  <button class="cta">PROJECTS
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118"
+                      style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                        <path
+                          d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
+                      </g>
+                    </svg>
+                    <span class="btn-background"></span>
+                  </button>
+                  <img src="assets/img/TEST.png" alt="Welcome">
+                </div>
+                <div class="intro--options">
+                  <a href="#0">
+                    <h3>CHRISSI - TIMUR - HUU THIEN </h3>
+                    <p>We are a trio of friends who first crossed paths during our studies. We thought it would be a good idea to create a collective. This space will serve as a hub for sharing everything we create together, as well as individual projects from each of us.</p>
+                  </a>
+   <!--                <a href="#0">
+                    <h3>Fantasy interactive</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                  </a>
+                  <a href="#0">
+                    <h3>Paul &amp; shark</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                  </a> -->
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <h2>THE SAME THREAD - 2024</h2>
+                
+
+                <div id="video-container-wrapper" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                  <div id="video-container" style="position: relative; width: 70vw; max-width: 70vw;">
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+                      <iframe id="video-frame-1" style="position:absolute; top:0; left:0; width:100%; height:100%;" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <img id="thumbnail-1" src="assets/img/THUMBNAIL_TST.png" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;" />
+                    <div id="play-button-1" style="position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); cursor: pointer;">
+                      <img src="assets/img/play-xxl.png" style="width:100px; height:100px;" />
+                    </div>
+                  </div>
+                  <div id="video-description" style="margin-top: 20px; text-align: center; max-width: 70vw; width: 100%;">
+                    <p>This is a short description of the video. It can be responsive too!</p>
+                  </div>
+                </div>
+                
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                $(document).ready(function() {
+                  $("#play-button-1").click(function() {
+                    $("#play-button-1").hide(); // Hide the play button once clicked
+                    $("#thumbnail-1").hide(); // Hide the thumbnail once the video starts playing
+                    $("#video-frame-1").attr("src", "https://www.youtube.com/embed/mK0wMnTEA1U?si=Z92OfNKfF-t5n8PI&autoplay=1");
+                  });
+                });
+                </script>
+  
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <h2>OWN - 2023</h2>
+                
+
+                <div id="video-container-wrapper" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                  <div id="video-container" style="position: relative; width: 70vw; max-width: 70vw;">
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+                      <iframe id="video-frame-2" style="position:absolute; top:0; left:0; width:100%; height:100%;" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <img id="thumbnail-2" src="assets/img/THUMBNAIL_OWN.png" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;" />
+                    <div id="play-button-2" style="position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); cursor: pointer;">
+                      <img src="assets/img/play-xxl.png" style="width:100px; height:100px;" />
+                    </div>
+                  </div>
+                  <div id="video-description" style="margin-top: 20px; text-align: center; max-width: 70vw; width: 100%;">
+                    <p>This is a short description of the video. It can be responsive too!</p>
+                  </div>
+                </div>
+                
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                $(document).ready(function() {
+                  $("#play-button-2").click(function() {
+                    $("#play-button-2").hide(); // Hide the play button once clicked
+                    $("#thumbnail-2").hide(); // Hide the thumbnail once the video starts playing
+                    $("#video-frame-2").attr("src", "https://www.youtube.com/embed/GFP0PQzDT-o?si=zirjNwAPbiLBnrZP&autoplay=1");
+                  });
+                });
+                </script>
+  
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <h2>LOOKISM - 2022</h2>
+                
+
+                <div id="video-container-wrapper" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                  <div id="video-container" style="position: relative; width: 70vw; max-width: 70vw;">
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+                      <iframe id="video-frame" style="position:absolute; top:0; left:0; width:100%; height:100%;" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <img id="thumbnail" src="assets/img/THUMBNAIL_LOOKISM.png" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;" />
+                    <div id="play-button" style="position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); cursor: pointer;">
+                      <img src="assets/img/play-xxl.png" style="width:100px; height:100px;" />
+                    </div>
+                  </div>
+                  <div id="video-description" style="margin-top: 20px; text-align: center; max-width: 70vw; width: 100%;">
+                    <p>This is a short description of the video. It can be responsive too!</p>
+                  </div>
+                </div>
+                
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                $(document).ready(function() {
+                  $("#play-button").click(function() {
+                    $("#play-button").hide(); // Hide the play button once clicked
+                    $("#thumbnail").hide(); // Hide the thumbnail once the video starts playing
+                    $("#video-frame").attr("src", "https://www.youtube.com/embed/H4YF-mSVpNQ?si=J-m6z4654he81Rr7&autoplay=1");
+                  });
+                });
+                </script>
+  
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <ul class="outer-nav">
+      <li class="is-active">HOME</li>
+      <li>TST</li>
+      <li>OWN</li>
+      <li>LOOKISM</li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+  <script src="assets/js/functions-min.js"></script>
+</body>
+
+</html>
